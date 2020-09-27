@@ -1,0 +1,154 @@
+article p + b {
+	background-color:red;
+}
+
+#div1 {
+	border: 2px;
+	border-color:red;
+	border-bottom: 2px;
+	width: 100%;
+	background-color:gray;
+}
+
+#div2{
+	background-color: rgb(200,200,200);
+	color: white;
+	padding: 20px;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+#div2 h1 {
+	background-color: DarkCyan;
+	padding: inherit;
+}
+
+#div2 h2 {
+	background-color: #ee3e80;
+	padding: inherit;
+}
+
+#div2 p {
+	background-color: white;
+	color: rgb(100,100,9);
+}
+
+.div3 {
+	width: 100px;
+	height: 100px;
+	margin: 40px;
+	display: inline-block;
+	background-color: #ee3e80;
+}
+
+.div3 p {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: 20px;
+	left: 20px;
+	margin: 20px;
+}
+
+.div3 p.one {
+	background-color: rgb(0,0,0);
+	opacity: 0.5;
+}
+
+.div3 p.two {
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.5);
+}
+
+#div4{
+	font-family: Georgia, Times, serif;
+	font-size:16px;
+}
+
+#div4 h1, h2 {
+	font-family: Arial, Verdana, sans-serif;
+}
+
+#div4 .credits {
+	font-family: "Courier New", Courier, monospace;
+	/* permite criar texto mais grossos ou mais finos */
+	font-weight:900;
+	/* primeira letra de cda palavra fica em maiúscula */
+	text-transform: capitalize;
+	text-align: right;
+}
+
+#div4 h1 {
+	font-size:200%;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+#div4 h2 {
+	font-size:2em;
+	text-transform: lowercase;
+	text-decoration: none;
+	/*
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: red; */
+}
+
+.intro {
+	font-style: italic;
+}
+
+#div4 p {
+	line-height:4.0em;
+	text-align:justify;
+	text-indent: 20px;
+}
+
+p.intro::first-letter {
+	font-size: 200%;
+}
+
+p.intro::first-line {
+	font-weight: bold;
+}
+
+a:link{
+	color: deeppink;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: deeppink;
+	text-decoration: underline;
+}
+
+a:active {
+	color: darkcyan;
+}
+
+input {
+	padding: 6px 12px 6px 12px;
+	border: 1px solid #665544;
+	color: #000000;
+}
+
+input.submit:hover {
+	background-color: #665544;
+}
+
+input.submit:active {
+	background-color: chocolate;
+}
+
+input.text {
+	color: #cccccc;
+}
+
+input.text:focus {
+	color:#665544;
+}
+
+
