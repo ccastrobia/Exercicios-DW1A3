@@ -1,0 +1,65 @@
+.container {
+  /*
+    grid: Ao colocá-lo em um elemento, os filhos serão afetados.
+  */
+  display: grid;
+  /* 
+     grid-template-columns: controla as colunas de seu grid.
+    Cada parâmeto representa uma coluna no grid, ou seja. se eu tirar um 
+    '100px', ficarão duas colunas apenas.
+  */
+  grid-template-columns: 100px 100px 100px 100px;
+
+  /*
+    grid-gap: me permite controlar o espaçamento entre os blocos do grid, como um padding.
+  */
+  grid-gap: 10px;
+}
+
+.teste {
+	  background-color: #A9A9A9;
+	  margin-left: auto;
+	margin-right: auto; 
+	border: solid 1px;
+	border-color: #C0C0C0;
+	border-radius: 20px;
+	width:100%;
+	padding: 20px;
+}
+
+.box, .visor, .mais, .zero {
+  background-color: #DCDCDC;
+  background-image: linear-gradient(180deg, #DCDCDC, white);
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 50px 50px 10px;
+  align-self: stretch;
+  justify-self: stretch;
+  align-content: center;
+  text-align: center;
+  text-align: 100px;
+  font-family: Arial;
+  border: solid 1px;
+  border-color: #C0C0C0;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width:28%;
+}
+
+.visor {
+	grid-column: 1 / 5;
+	text-align: right;	
+}
+
+.mais {
+	grid-row: 5 / 7;
+	grid-column: 4 / 5;
+}
+
+.zero {
+	grid-row: 6;
+	grid-column: 1/3;
+}
