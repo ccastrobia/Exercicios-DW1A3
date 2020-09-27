@@ -1,0 +1,102 @@
+body {
+	height:1700px;
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cabecalho {
+	height:80px;
+	width:98%;
+	margin: 10px;
+	text-align: center;
+	font-family: Arial; 
+	font-size: 20px;
+	color: #4682B4;
+}
+
+.texto {
+	height: 350px;
+	width:58%;
+	position: relative;
+	float: left;
+	margin: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+} 
+
+figure {
+	height:350px;
+	width:39%;
+	border-color: white;
+	position: static;
+	float: left;
+	margin: 2px;
+}
+
+.titulo {
+	color: #4682B4;
+	text-align: center;
+	font-family: Arial;
+	font-size: 25px;
+}
+
+.texto p, li {
+	font-family: Arial;
+	font-size: 17px;
+	text-align: justify;
+}
+
+figcaption {
+	font-family: Arial;
+	color: gray;
+	font-size: 12px;
+}
+
+figure img {
+	height:93%;
+	width:100%;
+}	
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Arial;
+	border: solid 1px;
+	border-color: #C0C0C0;
+	color: 	#4F4F4F;
+}
+
+th {
+	background-color: #4682B4;
+	color: white;
+	height: 25px;
+}
+
+#titulo_tabela {
+	height: 25px;
+	width:100px;
+	color: gray;
+}
+
+td {
+	width:100px;
+	text-align: center;
+	border: solid 0.5px;
+	border-color: #C0C0C0;
+	
+}
+
+tr {
+	border-color: #C0C0C0;
+	border: solid 1px;
+}
+
+#time {
+	width:180px;
+}
+
+a {
+	text-align: 100px;
+}
+

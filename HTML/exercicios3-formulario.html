@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Aula 5 - Formulários</title>
+		<link rel="stylesheet" type="text/css" href="css/exercicios3-formulario.css"/>
+	</head>
+	<body>
+		<form action="exercicio5_formulario.html">
+			<fieldset>
+				<legend>Dados Cadastrais</legend>
+				<label>Nome Completo:<br><input type="text" name="nomecompleto" size="35" maxlength="30"/></label><br>
+				<label>E-mail:<br><input type="email" name="email" size="35" maxlength="35" /></label><br>
+				<label>Telefone:<br><input type="tel" name="telefone" size="35" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}"/></label><br>
+				<label>Mensagem<br><textarea name="mensagem" cols="37" rows="4"></textarea>
+				<label><input type="submit" name="enviar" value="Cadastrar"/>
+			</fieldset>
+		</form> 
+	</body>
+</html>
